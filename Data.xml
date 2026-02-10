@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Automation>
+    <Execution>
+        <LoginWithValidUserValidPass>
+            <url>https://www.saucedemo.com/v1/index.html</url>
+            <username>standard_user</username>
+            <password>secret_sauce</password>
+            <product>Products</product>
+        </LoginWithValidUserValidPass>
+		 <LogInWithInvalidUsernameInvalidPassword>
+            <url>https://www.saucedemo.com/v1/index.html</url>
+            <username>xyz</username>
+            <password>abc</password>
+            <product>Products</product>
+        </LogInWithInvalidUsernameInvalidPassword>
+		 <LogInWithInvalidUsernameInvalidPassword>
+            <url>https://www.saucedemo.com/v1/index.html</url>
+            <username>123</username>
+            <password>@!$%$</password>
+            <product>Products</product>
+        </LogInWithInvalidUsernameInvalidPassword>
+    </Execution>
+</Automation>
